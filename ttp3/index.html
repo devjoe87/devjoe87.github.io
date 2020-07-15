@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+	<title>Treehouse Project 3 - The Code Review</title>
+</head>
+
+<body>
+	<header>
+		<h1>The Code Review</h1>
+	</header>
+
+<div class="container">
+	<section class="intro"> 
+		<h2>Signup for our newsletter</h2>
+		<p>Get the latest news on how your code is doing right in your inbox</p>
+	</section>
+
+	<div class="horizontal-break1"></div>
+
+		<form action="index.html" method="post">
+
+			<fieldset>
+
+			<legend>Contact Information</legend>
+
+			<section class="contact-section"> 
+				<div class="section1">
+					<label for="fullname">Full Name</label> 
+					<input type="text" id="fullname" name="user_name" placeholder="Full Name Required" required>
+				</div><br>
+				
+				<div class="section1">
+					<label for="mail">Email Address</label> 
+					<input type="email" id="mail" name="user_email" placeholder="Email Required" required>
+				</div><br>
+				
+				<div class="section1">
+					<label for="phone">Phone Number</label> 
+					<input type="tel" id="phone" name="user_phone" placeholder="Tel: +">
+				</div><br>
+
+
+				<div class="section1">
+					<label for="address">Street Address</label> 
+					<input type="text" id="address" name="user_street" placeholder="Enter Street Name">
+				</div><br>
+				
+				<div class="section1">
+					<label for="city">City</label> 
+					<input type="text" id="city" name="user_city" placeholder="Enter City">
+				</div><br>
+				
+				<div class="section1">
+					<label for="county">County</label>
+					<select id="county">
+						<option value="" disabled="" selected>Choose County</option>
+				    <optgroup label="England">
+				        <option>Bedfordshire</option>
+				        <option>Berkshire</option>
+				        <option>Bristol</option>
+				        <option>Buckinghamshire</option>
+				        <option>Cambridgeshire</option>
+				        <option>Cheshire</option>
+				        <option>City of London</option>
+				        <option>Cornwall</option>
+				        <option>Cumbria</option>
+				        <option>Derbyshire</option>
+				        <option>Devon</option>
+				        <option>Dorset</option>
+				        <option>Durham</option>
+				        <option>East Riding of Yorkshire</option>
+				        <option>East Sussex</option>
+				        <option>Essex</option>
+				        <option>Gloucestershire</option>
+				        <option>Greater London</option>
+				        <option>Greater Manchester</option>
+				        <option>Hampshire</option>
+				        <option>Herefordshire</option>
+				        <option>Hertfordshire</option>
+				        <option>Isle of Wight</option>
+				        <option>Kent</option>
+				        <option>Lancashire</option>
+				        <option>Leicestershire</option>
+				        <option>Lincolnshire</option>
+				        <option>Merseyside</option>
+				        <option>Norfolk</option>
+				        <option>North Yorkshire</option>
+				        <option>Northamptonshire</option>
+				        <option>Northumberland</option>
+				        <option>Nottinghamshire</option>
+				        <option>Oxfordshire</option>
+				        <option>Rutland</option>
+				        <option>Shropshire</option>
+				        <option>Somerset</option>
+				        <option>South Yorkshire</option>
+				        <option>Staffordshire</option>
+				        <option>Suffolk</option>
+				        <option>Surrey</option>
+				        <option>Tyne and Wear</option>
+				        <option>Warwickshire</option>
+				        <option>West Midlands</option>
+				        <option>West Sussex</option>
+				        <option>West Yorkshire</option>
+				        <option>Wiltshire</option>
+				        <option>Worcestershire</option>
+				    </optgroup>
+				    <optgroup label="Wales">
+				        <option>Anglesey</option>
+				        <option>Brecknockshire</option>
+				        <option>Caernarfonshire</option>
+				        <option>Carmarthenshire</option>
+				        <option>Cardiganshire</option>
+				        <option>Denbighshire</option>
+				        <option>Flintshire</option>
+				        <option>Glamorgan</option>
+				        <option>Merioneth</option>
+				        <option>Monmouthshire</option>
+				        <option>Montgomeryshire</option>
+				        <option>Pembrokeshire</option>
+				        <option>Radnorshire</option>
+				    </optgroup>
+				    <optgroup label="Scotland">
+				        <option>Aberdeenshire</option>
+				        <option>Angus</option>
+				        <option>Argyllshire</option>
+				        <option>Ayrshire</option>
+				        <option>Banffshire</option>
+				        <option>Berwickshire</option>
+				        <option>Buteshire</option>
+				        <option>Cromartyshire</option>
+				        <option>Caithness</option>
+				        <option>Clackmannanshire</option>
+				        <option>Dumfriesshire</option>
+				        <option>Dunbartonshire</option>
+				        <option>East Lothian</option>
+				        <option>Fife</option>
+				        <option>Inverness-shire</option>
+				        <option>Kincardineshire</option>
+				        <option>Kinross</option>
+				        <option>Kirkcudbrightshire</option>
+				        <option>Lanarkshire</option>
+				        <option>Midlothian</option>
+				        <option>Morayshire</option>
+				        <option>Nairnshire</option>
+				        <option>Orkney</option>
+				        <option>Peeblesshire</option>
+				        <option>Perthshire</option>
+				        <option>Renfrewshire</option>
+				        <option>Ross-shire</option>
+				        <option>Roxburghshire</option>
+				        <option>Selkirkshire</option>
+				        <option>Shetland</option>
+				        <option>Stirlingshire</option>
+				        <option>Sutherland</option>
+				        <option>West Lothian</option>
+				        <option>Wigtownshire</option>
+				    </optgroup>
+				    <optgroup label="Northern Ireland">
+				        <option>Antrim</option>
+				        <option>Armagh</option>
+				        <option>Down</option>
+				        <option>Fermanagh</option>
+				        <option>Londonderry</option>
+				        <option>Tyrone</option>
+				    </optgroup>
+				</select>
+			</div><br>
+
+				<div class="section1">
+					<label for="postcode">Postcode</label> 
+					<input type="text" id="postcode" name="user_postcode" placeholder="Postcode">
+				</div><br>
+
+			</section>
+			</fieldset>
+			
+
+			
+			<fieldset class="news-section">
+				<legend>Newsletter</legend>
+				<p>Select the newsletters you would like to receive</p>
+
+				<label class="cbox" for="htmlnews">HTML News
+				  <input type="checkbox" id="htmlnews" value="newstype_html" name="newstype">
+				  <span class="checkmark"></span>
+				</label>
+
+				<label class="cbox" for="cssnews">CSS News
+				  <input type="checkbox" id="cssnews" value="newstype_css" name="newstype">
+				  <span class="checkmark"></span>
+				</label>
+
+				<label class="cbox" for="jsnews">Javascript News
+				  <input type="checkbox" id="jsnews" value="newstype_javascript" name="newstype">
+				  <span class="checkmark"></span>
+				</label>
+
+
+
+				<p>Newsletter format</p>
+
+				<label class="radbutton" for="html">HTML
+				  <input type="radio" id="html" value="format_html" name="format" >
+				  <span class="radmark"></span>
+				</label>
+
+				<label class="radbutton" for="plain">Plain text
+				  <input type="radio" id="plain" value="format_plain" name="format" >
+				  <span class="radmark"></span>
+				</label>
+
+				<p>Other topics you'd like to hear about</p>
+				<textarea id="topics" name="user_topics" placeholder="Please enter any comments.."></textarea><br><br>
+
+			<button type="submit">Sign Up</button>
+			</fieldset>
+		</form>
+	</div>
+
+<footer>
+	<p>Copyright The Code Review</p>
+</footer>
+
+</body>
+</html>
