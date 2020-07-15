@@ -1,0 +1,183 @@
+* {
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+html { 
+  background: url(../crystal.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 80px;
+	color: #D3B71B;
+	margin: 30px 0 0 0;
+	padding: 0 10px;
+}
+
+header h2 {
+	font-size: 50px;
+	color: #D3B71B;	
+	margin: 0;
+	padding-left: 20px;
+}
+
+header p {
+	font-size: 16px;
+	color: white;
+	padding-left: 20px;
+	text-align: left;
+}
+
+nav {
+	display: block;
+}
+
+li {
+	list-style-type: none;
+	color: white;
+}
+
+li a {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+}
+
+.section-h2 {
+	font-size: 24px;
+	color: white;	
+	margin: 0;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;	
+	margin: 0;
+}
+
+section {
+	padding: 20px;
+}
+
+audio {
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: 18px;
+	color: white;
+	margin-bottom: 18px;
+}
+
+.main-contact {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.main-contact p {
+	font-weight: 600;
+	color: #D3B71B;
+}
+
+.main-contact a {
+	color: white;
+	font-weight: 700;
+}
+
+.main-socials {
+	padding: 20px 20px 100px 20px;
+}
+
+.main-socials img {
+	width: 30px;
+}
+
+.main-socials h3 {
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+	font-size: large;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media screen and (min-width: 768px) {
+
+h1 {
+	font-size: 170px;
+	color: #D3B71B;
+	margin: 30px 0 0 0;
+	padding-left: 10px;
+}
+
+h3 {
+	padding-left: 20px;	
+}
+
+.section-h2 {
+	padding-left: 20px;		
+}
+
+section p {
+	width: 50%;
+	margin-left: 40px;
+}
+
+main-contact h2 {
+	padding: 40px 0;
+	margin-top: 0;
+}
+
+.main-contact p {
+	font-size: 20px;
+/*	padding: 0 100px;*/
+	width: 50%;
+}
+
+.social-section {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 25px;
+}
+
+.social-section img {
+	width: 50px;
+}
+
+.social-section a {
+	padding: 0 50px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+
+}

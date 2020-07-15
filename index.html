@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+
+    <title>Web Dev Joe</title>
+  </head>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="10">
+    <!--navbar-->
+    <!-- <div class="container-fluid p-0"> -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/navbar-->
+
+    <!--jumbotron-->
+    <div class="container-fluid">
+      <section class="jumbotron text-center">
+        <video id="video-background" preload muted autoplay>
+          <source src="images/smoke.mp4" type="video/mp4" />
+        </video>
+        <div class="type-cont">
+          <div class="typewriter">
+            <h1>&lt;WEB DEV JOE></h1>
+          </div>
+          <h2>Available for hire 2020</h2>
+        </div>
+      </section>
+    </div>
+    <!--/jumbotron-->
+    <!--about section-->
+    <h2 class="display-4 text-center my-5 text-muted" id="about">
+      About
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>
+            Hey! I'm Joe. A 33 yeard old Junior Front End Developer based near
+            Leeds, England.
+          </p>
+          <p>
+            I have an interest in all things web related and at the beginning of
+            2020 quit my previous job role in Purchasing to study Web
+            Development full time with the view of becoming a Front End
+            Developer.
+          </p>
+          <p>
+            I have enjoyed the process so far and am proud of what I have
+            achieved in a short time.
+          </p>
+          <p>
+            My plans now are to continue to learn, practice all that I have been
+            taught and progress professionally in this area.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/about.jpg" alt="desk" />
+        </div>
+        <div class="col-md-6 mt-5">
+          <h3>Treehouse Points Acquired</h3>
+          <ul class="list-group-flush">
+            <li class="list-group-item">
+              <strong>11,931 points have been earned</strong>
+            </li>
+            <li class="list-group-item text-secondary">
+              <strong>4,655</strong> JavaScript
+            </li>
+            <li class="list-group-item text-secondary">
+              <strong>2,413</strong> CSS
+            </li>
+            <li class="list-group-item text-secondary">
+              <strong>1,180</strong> HTML
+            </li>
+            <li class="list-group-item text-secondary">
+              <strong>709</strong> Development Tools
+            </li>
+            <li class="list-group-item text-secondary">
+              <strong>40</strong> Digital Literacy
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 mt-5">
+          <div class="badge-container">
+            <h3>Recently Completed Treehouse Skills</h3>
+            <div id="badges"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--/about section-->
+
+      <!--portfolio section-->
+      <h2 class="display-4 text-center my-5 text-muted" id="portfolio">
+        Portfolio
+      </h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/project-3.png"
+              data-lightbox="gallery"
+              data-title='ONLINE REGISTRATION FORM<br>
+              This was my first Treehouse project using a supplied mockup
+                file, from which I built a mobile and desktop version of a
+                registration form using media queries and a "mobile-first"
+                approach.
+              <br
+            >
+              <a
+                href="projects/ttp3/index.html"
+                target="_blank"
+                ><strong>Open this site in a new window.</strong></a
+              >'
+              ><img
+                src="images/project-3tn.png"
+                class="card-img-top"
+                alt="project 3"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Online Registration Form</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Grade: Exceeds Expectations</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/project-5.png"
+              data-lightbox="gallery"
+              data-title='INTERACTIVE PHOTO GALLERY<br>
+              In this project I had to create an interactive photo gallery
+                using Javascript and jQuery.<br>
+                I built a working search function and implemented a lightbox
+                display when the user clicks on a thumbnail."<br
+                >
+                  <a
+                    href="projects/ttp5/index.html"
+                    target="_blank"
+                    ><strong>Open this site in a new window.</strong></a
+                  >'
+              ><img
+                src="images/project-5tn.png"
+                class="card-img-top"
+                alt="project 5"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Interactive Photo Gallery</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Grade: Exceeds Expectations</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/project-6.png"
+              data-lightbox="gallery"
+              data-title='HANGMAN STYLE GAME<br>
+              In this project I created a word guessing game.<br>
+              Using Javascript, I created an array of movie quotes and wrote
+                functions to chose a quote at random, split the quote into
+                letters and put that quote into the game. As correct letters are
+                chosen they are added to the screen and lives lost if incorrect
+                letter is chosen.<br>
+                Additional CSS transition properties were added to selected
+                letters to enhance the user experience.<br
+                >
+                  <a
+                    href="projects/ttp6/index.html"
+                    target="_blank"
+                    ><strong>Open this site in a new window.</strong></a
+                  >'
+              ><img
+                src="images/project-6tn.png"
+                class="card-img-top"
+                alt="project 6"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Hangman Style Game</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Grade: Exceeds Expectations</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/project-7.png"
+              data-lightbox="gallery"
+              data-title='WEB APP DASHBOARD<br>
+              Again using nothing more than a mockup I had to create a profile
+                dashboard.<br>
+                This dashboard uses HTML and CSS for the design and incorporates
+                Javascript-driven charts and widgets allowing sample data to
+                modify the information shown in the charts.<br
+                >
+                  <a
+                    href="projects/ttp7/index.html"
+                    target="_blank"
+                    ><strong>Open this site in a new window.</strong></a
+                  >'
+              ><img
+                src="images/project-7tn.png"
+                class="card-img-top"
+                alt="project 7"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Web App Dashboard</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Grade: Exceeds Expectations</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/project-8.png"
+              data-lightbox="gallery"
+              data-title='EMPLOYEE DIRECTORY<br>
+              In this project I used an API to grab information for 12 random
+                "employees". To do this I requested a JSON object from the API
+                using fetch and parsed the data into a grid showing the
+                employees thumbnail image, name, email and location.<br>
+                Clicking the employees image opens a modal window with more
+                detailed employee information.<br
+                >
+                  <a
+                    href="projects/ttp8/index.html"
+                    target="_blank"
+                    ><strong>Open this site in a new window.</strong></a
+                  >'
+              ><img
+                src="images/project-8tn.png"
+                class="card-img-top"
+                alt="project 8"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Employee Directory</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Grade: Exceeds Expectations</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <a
+              href="images/crystal2.png"
+              data-lightbox="gallery"
+              data-title='WEDDING SINGER HOMEPAGE<br>
+              This was the first website I created outside of the Treehouse
+                projects for my sister-in-law. I used her interest in singing as
+                inspiration to produce a homepage for her.<br
+                >
+                  <a
+                    href="projects/crystal website/index.html" target="_blank"
+                    ><strong>Open this site in a new window.</strong></a
+                  >'
+              ><img
+                src="images/crystal2tn.png"
+                class="card-img-top"
+                alt="crystal"
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">Wedding Singer Homepage</h4>
+              <p class="card-text text-secondary">
+                <strong>Click</strong> the project image to learn more.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Personal Project</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /portfolio section -->
+
+    <!--contact section-->
+    <h2 class="display-4 text-center my-5 text-muted" id="contact">
+      Contact
+    </h2>
+    <div class="container">
+      <form id="contact-form" method="post" action="contact.php">
+        <div class="messages"></div>
+
+        <div class="controls">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name">First Name *</label>
+                <input
+                  id="form_name"
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Please enter your first name *"
+                  required="required"
+                  data-error="Firstname is required."
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_lastname">Last Name *</label>
+                <input
+                  id="form_lastname"
+                  type="text"
+                  name="surname"
+                  class="form-control"
+                  placeholder="Please enter your last name *"
+                  required="required"
+                  data-error="Lastname is required."
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email">Email *</label>
+                <input
+                  id="form_email"
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Please enter your email *"
+                  required="required"
+                  data-error="Valid email is required."
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_need">Please specify your need *</label>
+                <select
+                  id="form_need"
+                  name="need"
+                  class="form-control"
+                  required="required"
+                  data-error="Please specify your need."
+                >
+                  <option value="">Please select an option</option>
+                  <option value="General Enquiry">Just to say Hello</option>
+                  <option value="Request a quote">Request a quote</option>
+                  <option value="General Enquiry">General Work Enquiry</option>
+                  <option value="Other">Other</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message">Message *</label>
+                <textarea
+                  id="form_message"
+                  name="message"
+                  class="form-control"
+                  placeholder="Message for me *"
+                  rows="4"
+                  required="required"
+                  data-error="Please, leave us a message."
+                ></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input
+                type="submit"
+                class="btn btn-success btn-send"
+                value="Send message"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-muted">
+                <strong>*</strong> These fields are required.
+              </p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--/contact section-->
+    <!--footer-->
+    <footer class="bd-footer text-muted text-center">
+      <div class="container-fluid p-3 p-md-5">
+        <ul class="bd-footer-links list-unstyled">
+          <li>
+            <img src="images/twitter.svg" alt="twitter" />
+            <h3>
+              <a
+                href="https://twitter.com/Yorkie_Joe"
+                class="text-muted"
+                target="_blank"
+                >Twitter</a
+              >
+            </h3>
+          </li>
+          <li>
+            <img src="images/linkedin.svg" alt="linked in" />
+            <h3>
+              <a
+                href="https://uk.linkedin.com/in/joseph-barrett-999b54113"
+                class="text-muted"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </h3>
+          </li>
+          <li>
+            <img src="images/GitHub.svg" alt="github" />
+            <h3>
+              <a
+                href="https://github.com/devjoe87"
+                class="text-muted"
+                target="blank"
+                >Github</a
+              >
+            </h3>
+          </li>
+          <li>
+            <img src="images/insta.svg" alt="instagram" />
+            <h3>
+              <a
+                href="https://instagram.com/yorkie_joe"
+                class="text-muted"
+                target="_blank"
+                >Instagram</a
+              >
+            </h3>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2020 by Joseph Barrett</p>
+      </div>
+    </footer>
+    <!--/footer-->
+    <!-- </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
