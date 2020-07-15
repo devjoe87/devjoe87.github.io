@@ -23,6 +23,10 @@ a.nav-link:hover {
 /*
 **JUMBOTRON SECTION**
 */
+.jumbo-container {
+  height: 100vh;
+}
+
 .jumbotron {
   height: 500px;
   background: #000;
@@ -133,6 +137,10 @@ a.nav-link:hover {
 
 .list-group-flush {
   padding-inline-start: 0;
+}
+
+.about-container {
+  padding-top: 30px;
 }
 
 /*
