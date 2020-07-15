@@ -260,7 +260,7 @@ li .tooltip {
     font-size: 1.5em;
   }
   .type-cont {
-    top: 150px;
+    top: 250px;
   }
 
   #badges img:hover + .tooltip {
