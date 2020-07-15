@@ -25,10 +25,11 @@ a.nav-link:hover {
 */
 .jumbo-container {
   height: 100vh;
+  background: #000;
 }
 
 .jumbotron {
-  height: 500px;
+  height: 100vh;
   background: #000;
 }
 .jumbotron:before {
@@ -49,7 +50,7 @@ a.nav-link:hover {
   left: 0;
   bottom: 0;
   object-fit: cover;
-  height: 500px;
+  height: 100vh;
   width: 100%;
   background: #000;
 }
