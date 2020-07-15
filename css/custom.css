@@ -59,7 +59,7 @@ a.nav-link:hover {
 */
 .type-cont {
   position: relative;
-  top: 250px;
+  top: 40%;
 }
 
 .typewriter {
@@ -259,9 +259,9 @@ li .tooltip {
   .type-cont h2 {
     font-size: 1.5em;
   }
-  .type-cont {
-    top: 350px;
-  }
+  /* .type-cont {
+    top: 40%;
+  } */
 
   #badges img:hover + .tooltip {
     left: -190px;
@@ -297,6 +297,10 @@ li .tooltip {
   .type-cont h2 {
     font-size: 2.5em;
   }
+
+  /* .type-cont {
+    top: 40%;
+  } */
 
   #badges {
     width: 400px;
