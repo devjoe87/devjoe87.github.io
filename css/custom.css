@@ -32,28 +32,7 @@ a.nav-link:hover {
   height: 100vh;
   background: #000;
 }
-.jumbotron:before {
-  content: "";
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #f00, #f00, #0f0, #0ff, #ff0, #0ff);
-  mix-blend-mode: color;
-  pointer-events: none;
-}
-#video-background {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  object-fit: cover;
-  height: 100vh;
-  width: 100%;
-  background: #000;
-}
+
 /*
 **JUMBOTRON text**
 */
@@ -107,7 +86,7 @@ a.nav-link:hover {
   font-size: 1em;
   font-family: "Source Code Pro", monospace;
   letter-spacing: 0.3em;
-  animation: glow 4s linear 5s forwards;
+  animation: glow 3s linear 5s forwards;
   opacity: 0;
 }
 
@@ -259,9 +238,6 @@ li .tooltip {
   .type-cont h2 {
     font-size: 1.5em;
   }
-  /* .type-cont {
-    top: 40%;
-  } */
 
   #badges img:hover + .tooltip {
     left: -190px;
@@ -297,10 +273,6 @@ li .tooltip {
   .type-cont h2 {
     font-size: 2.5em;
   }
-
-  /* .type-cont {
-    top: 40%;
-  } */
 
   #badges {
     width: 400px;
