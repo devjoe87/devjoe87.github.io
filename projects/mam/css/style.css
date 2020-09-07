@@ -33,6 +33,10 @@ p {
   width: 100vw;
 }
 
+.phone {
+  margin-right: 5px;
+}
+
 /*
 **FOOTER SECTION**
 */
@@ -58,5 +62,9 @@ footer li img {
   .bd-footer-links {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .contact1 {
+    font-size: 22px;
   }
 }
