@@ -33,6 +33,10 @@ p {
   width: 100vw;
 }
 
+.desk2 {
+  object-fit: cover;
+}
+
 .phone {
   margin-right: 5px;
 }
