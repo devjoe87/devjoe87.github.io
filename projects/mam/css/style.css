@@ -1,0 +1,58 @@
+* {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+/*
+**NAV SECTION**
+*/
+.navmam {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-text {
+  color: #000;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.navlogo {
+  width: 50px;
+}
+/*
+**CAROUSEL SECTION**
+*/
+.carousel-item img {
+  height: 90vh;
+  width: 100%;
+}
+
+/*
+**FOOTER SECTION**
+*/
+
+.bd-footer-links {
+  padding: 20px 0;
+}
+
+.bd-footer-links li {
+  padding: 10px;
+}
+
+footer li img {
+  width: 30px;
+  height: 30px;
+}
+
+/*
+**MEDIA QUERIES**
+*/
+
+@media (min-width: 576px) {
+  .bd-footer-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
