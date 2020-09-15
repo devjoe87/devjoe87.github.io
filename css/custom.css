@@ -86,8 +86,12 @@ a.nav-link:hover {
   font-size: 1em;
   font-family: "Source Code Pro", monospace;
   letter-spacing: 0.3em;
-  animation: glow 3s linear 5s forwards;
+  animation: glow 1.75s ease-out 5s forwards;
   opacity: 0;
+}
+
+.type-cont a {
+  color: #ffd8d8;
 }
 
 @keyframes glow {
