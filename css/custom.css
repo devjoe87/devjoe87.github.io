@@ -127,6 +127,17 @@ a.nav-link:hover {
   padding-top: 30px;
 }
 
+.about-container a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.imagecol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /*
 **FOOTER SECTION**
 */
