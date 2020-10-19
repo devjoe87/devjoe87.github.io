@@ -86,7 +86,7 @@ a.nav-link:hover {
   font-size: 1em;
   font-family: "Source Code Pro", monospace;
   letter-spacing: 0.3em;
-  animation: glow 1.75s ease-out 5s forwards;
+  animation: glow 0.25s ease-in-out 5s forwards;
   opacity: 0;
 }
 
