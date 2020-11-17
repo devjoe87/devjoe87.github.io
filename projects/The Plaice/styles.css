@@ -1,0 +1,167 @@
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+body {
+  background-image: url(imgs/stock-photo-old-english-newspapers-background-294853382.jpg);
+}
+
+.container {
+  background: white;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+/* MAIN HEADING */
+#open {
+  margin: 0;
+  width: 100%;
+  color: darkred;
+  font-size: 2em;
+  font-family: "Source Code Pro", monospace;
+  animation: glow 0.5s ease-in-out 1s forwards;
+  opacity: 0;
+  padding: 20px;
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+    text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8,
+      0.4vw 0vw 0.25vw #ffd8d8;
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(5px);
+    text-shadow: 0.1vw 0vw 0vw #f25757, 0.2vw 0vw 0vw #f25757,
+      0.4vw 0vw 0vw #f25757, 0.1vw 0vw 0.1vw #f25757, 0.2vw 0vw 0.1vw #f25757,
+      0.4vw 0vw 0.1vw #f25757, 0.1vw 0vw 0.2vw #f25757, 0.2vw 0vw 0.2vw #f25757,
+      0.4vw 0vw 0.2vw #f25757;
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    text-shadow: 0.1vw 0vw 1vw #e50b0b, 0.2vw 0vw 1vw #e50b0b,
+      0.4vw 0vw 5vw #e50b0b, 0.1vw 0vw 5vw #e50b0b, 0.2vw 0vw 20vw #e50b0b,
+      0.4vw 0vw 10vw #e50b0b, 0.1vw 0vw 10vw #e50b0b, 0.2vw 0vw 30vw #e50b0b,
+      0.4vw 0vw 10vw #e50b0b;
+  }
+}
+
+/* GONE FISHING IMAGE */
+#fishing {
+  max-width: 100px;
+  opacity: initial;
+}
+
+#info {
+  padding-top: 1rem;
+}
+
+/* FISH AND CHIPS IMAGE */
+.fish {
+  opacity: initial;
+}
+
+/* MENU SECTION */
+.table {
+  text-align: initial;
+}
+
+/* LOCATION SECTION */
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 60%;
+  position: relative;
+  height: 300px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* FOOTER SECTION */
+footer p {
+  margin: 0;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+    padding-top: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  #callBtn {
+    padding-bottom: 20px;
+  }
+
+  #fishing {
+    max-width: 200px;
+  }
+
+  #info {
+    font-size: 22px;
+  }
+
+  #menu {
+    padding-top: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #open {
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+  }
+}

@@ -83,9 +83,8 @@ a.nav-link:hover {
   position: absolute;
   width: 100%;
   color: #ffd8d8;
-  font-size: 1em;
+  font-size: 2em;
   font-family: "Source Code Pro", monospace;
-  letter-spacing: 0.3em;
   animation: glow 0.55s ease-in-out 5s forwards;
   opacity: 0;
 }
