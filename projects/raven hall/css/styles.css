@@ -57,7 +57,7 @@ html {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("/images/IMG_1401.JPG");
+    url("../images/IMG_1401.JPG");
 
   /* Set a specific height */
   height: 100vh;
@@ -125,7 +125,7 @@ footer p {
 /* The hero image */
 .hero-image-dining {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("/images/restaurant.jpg");
+    url("../images/restaurant.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ footer p {
 /* The hero image */
 .hero-image-wedding {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("/images/web3.JPG");
+    url("../images/web3.JPG");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,7 +153,7 @@ footer p {
 /* The hero image */
 .hero-image-lodges {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("/images/web8.jpg");
+    url("../images/web8.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
