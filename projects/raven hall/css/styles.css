@@ -1,0 +1,237 @@
+* {
+  font-family: "EB Garamond", serif;
+}
+
+.display-1 {
+  font-size: 2.5rem;
+  width: max-content;
+  max-width: fit-content;
+  font-weight: 500;
+}
+
+.display-4 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+em {
+  font-size: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar-custom {
+  background-color: #383376;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  background-color: #383376;
+  padding-left: 20px;
+}
+
+.btn-primary {
+  background-color: #383376;
+  font-size: 1rem;
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/images/IMG_1401.JPG");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text,
+.hero-text-dining,
+.hero-text-wedding,
+.hero-text-lodges {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.table td {
+  padding: 0.25rem;
+}
+
+/* RATES SECTION */
+.card-img-top {
+  height: 200px;
+}
+
+.card-body {
+  height: 200px;
+}
+
+/* LOCATION SECTION */
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 60%;
+  position: relative;
+  height: 300px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.list-group-item {
+  border: none;
+}
+
+/* FOOTER SECTION */
+footer p {
+  margin: 0;
+}
+
+/*DINING PAGE*/
+/* The hero image */
+.hero-image-dining {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/images/restaurant.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*WEDDING PAGE*/
+/* The hero image */
+.hero-image-wedding {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/images/web3.JPG");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#client-testimonial-carousel {
+  min-height: 200px;
+}
+
+/* LODGES PAGE /*
+/* The hero image */
+.hero-image-lodges {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/images/web8.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+
+  em {
+    font-size: 1.25rem;
+  }
+
+  #homelink {
+    display: none;
+  }
+
+  .navbar-custom {
+    height: 85px;
+  }
+
+  .navbar-brand {
+    display: inline;
+  }
+
+  .display-1 {
+    font-size: 4rem;
+    max-width: none;
+  }
+
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  .btn-primary {
+    font-size: 1.25rem;
+  }
+
+  .table td {
+    padding: 0.75rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
+
+  .card-body {
+    height: 260px;
+  }
+
+  .display-1 {
+    font-size: 6rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p {
+    font-size: 20px;
+  }
+
+  .card-body {
+    height: 330px;
+  }
+}
