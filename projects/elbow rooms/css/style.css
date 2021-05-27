@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+/* GLOBAL */
+
+body,
+html {
+  height: 100%;
+
+  font-family: "DM Serif Display", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: #27377b;
+}
+
+.display-1 {
+  font-size: 3.75rem;
+  width: max-content;
+  max-width: fit-content;
+  font-weight: 500;
+}
+
+.display-2 {
+  font-size: 2rem;
+}
+
+.display-3 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+em {
+  font-size: 1rem;
+}
+
+/* /GLOBAL END */
+
+/* NAVIGATION */
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar-custom {
+  background-color: #27377b;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navbar-nav {
+  background-color: #27377b;
+  padding-left: 20px;
+}
+
+#logo {
+  margin-left: 10px;
+}
+/* /NAVIGATION END */
+
+/* JUMBOTRON */
+.jumbotron {
+  background: url(../images/bring.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.description {
+  position: relative;
+  top: 30%;
+}
+
+.jumbologo {
+  height: 180px;
+}
+
+.btn-primary {
+  background-color: #ed720b;
+}
+
+.btn-warning {
+  background-color: #27377b;
+}
+
+/* /JUMBOTRON END */
+
+/* Parallax */
+.parallax {
+  background-image: url(../images/street.jpg);
+  min-height: 300px;
+  /* background-attachment: fixed; */
+  background-position: 60%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* /parallax END */
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table .thead-dark th {
+  background-color: #27377b;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features img {
+  height: 50%;
+  width: 50%;
+  padding: 15px 0;
+}
+/* FEATURES END */
+
+/* NEARBY */
+
+.nearbydiv {
+  margin-top: 8px;
+}
+.jumbotron2 {
+  background: url(../images/nearby.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+/* /NEARBY END */
+
+/* GALLERY */
+#gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+#gallery .column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+#gallery .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+#gallery .column img:hover {
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+  #gallery .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #gallery .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #gallery .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+/* /GALLERY END*/
+
+/* CONTACT */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* /CONTACT END */
+
+/* FOOTER */
+
+footer {
+  background-color: #ed720b;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* /FOOTER END */
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+@media screen and (max-width: 800px) {
+  #gallery .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #gallery .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #gallery .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    padding-top: 85px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  em {
+    font-size: 1.25rem;
+  }
+
+  #logo {
+    height: 95px;
+  }
+
+  .description {
+    top: 20%;
+  }
+
+  .jumbologo {
+    height: 250px;
+  }
+
+  .navbar-custom {
+    height: 85px;
+  }
+
+  .navbar-brand {
+    display: inline;
+  }
+
+  .display-1 {
+    font-size: 4rem;
+    max-width: none;
+  }
+
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  .contactlogo {
+    width: auto;
+    height: 200px;
+  }
+
+  .nearbydiv {
+    display: none;
+  }
+
+  .jumbotron2 {
+    display: block;
+    background-size: 100% 100%;
+    margin-top: 8px;
+  }
+
+  .features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .features img {
+    width: 150px;
+    padding: 20px 20px;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+  }
+
+  .floorplan {
+    height: 400px;
+  }
+
+  .table {
+    width: 80%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
+
+  .display-1 {
+    font-size: 6rem;
+  }
+
+  .jumbologo {
+    height: 350px;
+  }
+
+  .floorplan {
+    height: 500px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p {
+    font-size: 20px;
+  }
+
+  .floorplan {
+    height: 550px;
+  }
+
+  .jumbotron2 {
+    height: 700px;
+  }
+}
