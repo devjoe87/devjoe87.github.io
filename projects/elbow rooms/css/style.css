@@ -64,7 +64,7 @@ em {
 
 /* JUMBOTRON */
 .jumbotron {
-  background: url(./images/bring.jpg) no-repeat;
+  background: url(../images/bring.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   width: auto;
@@ -97,7 +97,7 @@ em {
 
 /* Parallax */
 .parallax {
-  background-image: url(./images/street.jpg);
+  background-image: url(../images/street.jpg);
   min-height: 300px;
   /* background-attachment: fixed; */
   background-position: 60%;
@@ -135,7 +135,7 @@ em {
   margin-top: 8px;
 }
 .jumbotron2 {
-  background: url(./images/nearby.jpg) no-repeat;
+  background: url(../images/nearby.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   width: auto;
