@@ -22,7 +22,7 @@ $(document).ready(function () {
 //--Points update
 //-------------------------------------------------------------------------
 
-$.getJSON("https://teamtreehouse.com/josephbarrett4.json", function(data){
+$.getJSON("https://teamtreehouse.com/josephbarrett4.json", function (data) {
   var totalpts = data.points.total;
   var jspts = data.points.JavaScript;
   var csspts = data.points.CSS;
@@ -32,7 +32,7 @@ $.getJSON("https://teamtreehouse.com/josephbarrett4.json", function(data){
   var designpts = data.points.Design;
   var phppts = data.points.PHP;
   var diglitpts = data.points["Digital Literacy"];
-  
+
   $('.totalpts').append(totalpts);
   $('.jspts').append(jspts);
   $('.csspts').append(csspts);
@@ -43,3 +43,4 @@ $.getJSON("https://teamtreehouse.com/josephbarrett4.json", function(data){
   $('.phppts').append(phppts);
   $('.diglitpts').append(diglitpts);
 });
+
